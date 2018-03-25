@@ -7,3 +7,4 @@ SOBOLE_THEME_MODE="dark"
 plugins=(git send)
 source $ZSH/oh-my-zsh.sh
 
+alias RR="R --no-restore --no-save"
