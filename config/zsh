@@ -1,3 +1,4 @@
+source ~/.secrets
 export ZSH=/Users/abelcastillo/.oh-my-zsh
 
 ZSH_THEME="sobole"
