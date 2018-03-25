@@ -1,0 +1,8 @@
+export ZSH=/Users/abelcastillo/.oh-my-zsh
+
+ZSH_THEME="sobole"
+SOBOLE_THEME_MODE="dark"
+
+plugins=(git send)
+source $ZSH/oh-my-zsh.sh
+

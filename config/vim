@@ -1,0 +1,28 @@
+set autoindent
+set clipboard=unnamed
+set expandtab
+set smarttab
+set tabstop=2
+set shiftwidth=2
+set noerrorbells
+set title
+set cursorline
+set wildmenu
+set showmatch
+set hlsearch
+syntax on
+set nobackup
+set nowb
+set noswapfile
+let g:strip_whitespace_on_save = 1
+set laststatus=2
+set colorcolumn=100
+
+
+" Move between windows faster
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+execute pathogen#infect()
