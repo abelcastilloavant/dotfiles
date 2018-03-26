@@ -1,3 +1,7 @@
+set-option -g default-shell /bin/zsh
+bind C-b send-prefix
+
+# Appearance changes
 # Source: https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
 
 # panes
