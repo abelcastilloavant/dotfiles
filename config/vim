@@ -26,3 +26,11 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 execute pathogen#infect()
+
+
+" Window splits & ruler are too bright, so change to white on grey (non-GUI)
+highlight StatusLine       cterm=NONE ctermbg=blue ctermfg=white
+highlight StatusLineTerm   cterm=NONE ctermbg=blue ctermfg=white
+highlight StatusLineNC     cterm=NONE ctermbg=black ctermfg=white
+highlight StatusLineTermNC cterm=NONE ctermbg=black ctermfg=white
+highlight VertSplit        cterm=NONE ctermbg=black ctermfg=white
